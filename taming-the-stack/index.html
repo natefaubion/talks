@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taming the Stack in PureScript</title>
+    <meta charset="utf-8">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Bungee|Source+Code+Pro:400,700|Titillium+Web:400,400i,700');
+
+      body { font-family: 'Titillium Web'; }
+      h1 {
+        font-family: 'Bungee';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Source Code Pro'; }
+      .remark-slide-content { font-size: 32px; }
+    </style>
+  </head>
+  <body>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var now = +new Date();
+      var slideshow = remark.create({
+        sourceUrl: './presentation.md',
+        highlightLines: true
+      });
+    </script>
+  </body>
+</html>
